@@ -1,0 +1,21 @@
+{
+  "views": {
+    "home": {
+      "header": "Home",
+      "title": "About me",
+      "content": "Lorem ipsum"
+    },
+    "not_found": {
+      "header": "NotFound",
+      "title": "404",
+      "content": "Oops! Page not found.",
+      "subcontent": "The page you are looking for does not exist.",
+      "button": "Go Home"
+    }
+  },
+  "components": {
+    "dock": {
+      "home": "Home"
+    }
+  }
+}
