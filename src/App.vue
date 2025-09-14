@@ -11,9 +11,11 @@ import BottomDock from '@/components/BottomDock.vue'
         'w-full',
         $route.path === '/need_auth' ? 'max-w-sm' : 'max-w-2xl'
       ]">
-        <router-view/>
+          <router-view/>
       </div>
     </main>
+    <keep-alive>
     <BottomDock v-if="$route.name !== 'NotFound'"/>
+    </keep-alive>
   </div>
 </template>

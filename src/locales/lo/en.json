@@ -2,20 +2,22 @@
   "views": {
     "home": {
       "header": "Home",
-      "title": "About me",
-      "content": "Lorem ipsum"
+      "title": "Landing by sht0rmx",
+      "content": "This is my mini-blog where you can get information about me and my projects. At the bottom of the page there is a dock bar to help you navigate the site! And now, forward – read ^.^"
     },
     "not_found": {
-      "header": "NotFound",
+      "header": "Not Found",
       "title": "404",
-      "content": "Oops! Page not found.",
-      "subcontent": "The page you are looking for does not exist.",
-      "button": "Go Home"
+      "content": "Oops... Page not found",
+      "subcontent": "The page you are trying to access does not exist",
+      "button": "Return Home"
     }
   },
   "components": {
     "dock": {
-      "home": "Home"
+      "home": "Home",
+      "posts": "Blog",
+      "projects": "Projects"
     }
   }
 }
